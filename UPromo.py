@@ -2,10 +2,6 @@ import requests
 from bs4 import BeautifulSoup as BS
 from selenium import webdriver
 import time
-import psycopg2
-
-
-def insert_new_offers():
 
 URL = 'https://www.youtube.com/user/dima91gordey/videos'
 
@@ -24,13 +20,9 @@ for video in videos:
     linksoup = BS(linkhtml.text, 'html.parser')
     #  <meta name='description' content='
     desc = linksoup.find('meta', {'name': 'description'})
-    content = desc.get('content')
+    content = str(desc.get('content'))
+    keywords = ['промокод', 'скидк']
+    for keyword in keywords:
+        if content.find(keyword) != 0:
+
     print(link, content)
-
-"""
-Get URLs from DB 
-"""
-def get_urls():
-    return 'urls'
-
-
