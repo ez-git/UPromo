@@ -16,7 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
+    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="pull pj from pycharm">
+      <change afterPath="$PROJECT_DIR$/delete_timed_out_promo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_promo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UPromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +96,8 @@
       <workItem from="1603396241280" duration="106000" />
       <workItem from="1603443665841" duration="1599000" />
       <workItem from="1603809418221" duration="1671000" />
-      <workItem from="1603811103952" duration="303000" />
+      <workItem from="1603811103952" duration="1795000" />
+      <workItem from="1603812927920" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -101,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811195324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pull pj from pycharm">
+      <created>1603811754164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603811754164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,16 +141,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pull pj from pycharm" />
     <option name="LAST_COMMIT_MESSAGE" value="pull pj from pycharm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="129" key="CommitChangelistDialog2" timestamp="1603811193778">
+    <state x="489" y="129" key="CommitChangelistDialog2" timestamp="1603811448775">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="489" y="129" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1603811193778" />
+    <state x="489" y="129" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1603811448775" />
     <state x="166" y="95" key="DiffContextDialog" timestamp="1603811398920">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -175,10 +188,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1603810146779" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1603811401657">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1603811871223">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603811401657" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603811871223" />
     <state x="674" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603810838328">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>

@@ -32,5 +32,3 @@ Get URLs from DB
 """
 def get_urls():
     return 'urls'
-
-
