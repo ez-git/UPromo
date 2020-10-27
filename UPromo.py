@@ -7,7 +7,7 @@ URL = 'https://www.youtube.com/user/dima91gordey/videos'
 
 driver = webdriver.Chrome()
 driver.get(URL)
-time.sleep(5)
+time.sleep(1)
 html = driver.page_source
 driver.close()
 
@@ -21,8 +21,13 @@ for video in videos:
     #  <meta name='description' content='
     desc = linksoup.find('meta', {'name': 'description'})
     content = str(desc.get('content'))
-    keywords = ['промокод', 'скидк']
+    keywords = ['промокод', 'скидк', 'акци']
+    promo = ''
     for keyword in keywords:
-        if content.find(keyword) != 0:
-
-    print(link, content)
+        keypos = content.lower().find(keyword)
+        if keypos != 0:
+            dotpos = content.find('.', keypos)
+            promo = content[0:dotpos + 1]
+            break
+    if promo != '':
+        print(link, promo)
