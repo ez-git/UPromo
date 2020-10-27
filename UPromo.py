@@ -4,7 +4,7 @@ from selenium import webdriver
 import time
 import psycopg2
 
-URLs = get_urls()
+#URLs = get_urls()
 URL = 'https://www.youtube.com/user/dima91gordey/videos'
 
 driver = webdriver.Chrome()
