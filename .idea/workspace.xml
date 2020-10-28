@@ -16,13 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="add keyords array">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="add parse part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/init_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_promo.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_promo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +101,7 @@
       <workItem from="1603816600553" duration="1385000" />
       <workItem from="1603893041846" duration="1792000" />
       <workItem from="1603894847416" duration="1795000" />
+      <workItem from="1603896678567" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -141,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603817971953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add parse part">
+      <created>1603896742348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603896742348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +179,8 @@
     <MESSAGE value="pull pj from pycharm" />
     <MESSAGE value="add modules" />
     <MESSAGE value="add keyords array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add keyords array" />
+    <MESSAGE value="add parse part" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parse part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603896480037">
@@ -250,10 +255,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1603810146779" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1603817976664">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1603896748398">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603817976664" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603896748398" />
     <state x="764" y="421" key="com.intellij.database.actions.DdlActions$ModifyObject$1" timestamp="1603896422677">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
