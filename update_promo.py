@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as BS
 from selenium import webdriver
 import time
-import psycopg2
+
 
 URL = 'https://www.youtube.com/user/dima91gordey/videos'
 
