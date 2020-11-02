@@ -27,7 +27,7 @@ for video in videos:
     #  <meta name='description' content='
     desc = linksoup.find('meta', {'name': 'description'})
     content = str(desc.get('content'))
-    keywords = ['промокод', 'скидк', 'акци']
+    keywords = ['промокод', 'скидк', 'акци'] # розыгрыш
     promo = ''
     for keyword in keywords:
         low_content = content.lower()
