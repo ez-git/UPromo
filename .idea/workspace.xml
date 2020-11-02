@@ -16,12 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="add init 2 tables &#10;promos&#10;channel list">
-      <change afterPath="$PROJECT_DIR$/add_ch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
-    </list>
+    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +152,7 @@
       <workItem from="1604303849640" duration="251000" />
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
-      <workItem from="1604350631227" duration="6653000" />
+      <workItem from="1604350631227" duration="7037000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -208,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603897497811</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date">
+      <created>1604357616519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604357616519</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +246,8 @@
     <MESSAGE value="add keyords array" />
     <MESSAGE value="add parse part" />
     <MESSAGE value="add init 2 tables &#10;promos&#10;channel list" />
-    <option name="LAST_COMMIT_MESSAGE" value="add init 2 tables &#10;promos&#10;channel list" />
+    <MESSAGE value="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604356268138">
@@ -263,10 +266,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604354455848" />
-    <state x="489" y="129" key="CommitChangelistDialog2" timestamp="1603811448775">
+    <state x="554" y="170" key="CommitChangelistDialog2" timestamp="1604357615290">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="489" y="129" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1603811448775" />
+    <state x="554" y="170" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604357615290" />
     <state x="166" y="95" key="DiffContextDialog" timestamp="1603811398920">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -283,22 +286,22 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="671" y="266" key="Github.UntrackedFilesDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1603810789260" />
-    <state width="1685" height="309" key="GridCell.Tab.0.bottom" timestamp="1604357314783">
+    <state width="1158" height="309" key="GridCell.Tab.0.bottom" timestamp="1604357668928">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="309" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604357314783" />
-    <state width="1685" height="309" key="GridCell.Tab.0.center" timestamp="1604357314783">
+    <state width="1158" height="309" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604357668928" />
+    <state width="1158" height="309" key="GridCell.Tab.0.center" timestamp="1604357668928">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="309" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604357314783" />
-    <state width="1685" height="309" key="GridCell.Tab.0.left" timestamp="1604357314783">
+    <state width="1158" height="309" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604357668928" />
+    <state width="1158" height="309" key="GridCell.Tab.0.left" timestamp="1604357668928">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="309" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604357314783" />
-    <state width="1685" height="309" key="GridCell.Tab.0.right" timestamp="1604357314783">
+    <state width="1158" height="309" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604357668928" />
+    <state width="1158" height="309" key="GridCell.Tab.0.right" timestamp="1604357668928">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="309" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604357314783" />
+    <state width="1158" height="309" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604357668928" />
     <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604354491228">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -323,10 +326,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1603897499649">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604357708158">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603897499649" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604357708158" />
     <state x="764" y="421" key="com.intellij.database.actions.DdlActions$ModifyObject$1" timestamp="1603896422677">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -348,7 +351,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UPromo$add_ch.coverage" NAME="add_ch Coverage Results" MODIFIED="1604357314767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPromo$add_ch.coverage" NAME="add_ch Coverage Results" MODIFIED="1604357323657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$UPromo.coverage" NAME="UPromo Coverage Results" MODIFIED="1604352583142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$init_tables.coverage" NAME="init_tables Coverage Results" MODIFIED="1604357180826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
