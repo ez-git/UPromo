@@ -17,11 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TBotControl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBotControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/TBotControl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,29 @@
       <recent name="C:\Users\EZ\PycharmProjects\UPromo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.add_ch">
+  <component name="RunManager" selected="Python.TBotControl">
+    <configuration name="TBotControl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UPromo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TBotControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="UPromo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UPromo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TBotControl" />
         <item itemvalue="Python.add_ch" />
         <item itemvalue="Python.init_tables" />
         <item itemvalue="Python.UPromo" />
@@ -164,7 +184,7 @@
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
       <workItem from="1604350631227" duration="7122000" />
-      <workItem from="1604588873073" duration="1576000" />
+      <workItem from="1604588873073" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -229,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604357716095</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added sys heroku files&#10;added telegram bot code">
+      <created>1604590856360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604590856360</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +293,8 @@
     <MESSAGE value="add parse part" />
     <MESSAGE value="add init 2 tables &#10;promos&#10;channel list" />
     <MESSAGE value="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date" />
+    <MESSAGE value="added sys heroku files&#10;added telegram bot code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sys heroku files&#10;added telegram bot code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604356268138">
@@ -281,14 +309,14 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="545" y="297" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1604303908278" />
-    <state x="1003" y="172" key="#xdebugger.evaluate" timestamp="1604354455848">
+    <state x="1003" y="172" key="#xdebugger.evaluate" timestamp="1604592960698">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604354455848" />
-    <state x="554" y="170" key="CommitChangelistDialog2" timestamp="1604357714920">
+    <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604592960698" />
+    <state x="176" y="77" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604590855741">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="554" y="170" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604357714920" />
+    <state x="176" y="77" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604590855741" />
     <state x="166" y="95" key="DiffContextDialog" timestamp="1603811398920">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -305,38 +333,38 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="671" y="266" key="Github.UntrackedFilesDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1603810789260" />
-    <state width="1685" height="380" key="GridCell.Tab.0.bottom" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.0.bottom" timestamp="1604593523302">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.0.center" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604593523302" />
+    <state width="1685" height="380" key="GridCell.Tab.0.center" timestamp="1604593523301">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.0.left" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604593523301" />
+    <state width="1685" height="380" key="GridCell.Tab.0.left" timestamp="1604593523301">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.0.right" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604593523301" />
+    <state width="1685" height="380" key="GridCell.Tab.0.right" timestamp="1604593523302">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604593523302" />
+    <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604593524776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.1.center" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604593524776" />
+    <state width="1685" height="380" key="GridCell.Tab.1.center" timestamp="1604593524776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.1.left" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604593524776" />
+    <state width="1685" height="380" key="GridCell.Tab.1.left" timestamp="1604593524776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
-    <state width="1685" height="380" key="GridCell.Tab.1.right" timestamp="1604357794667">
+    <state width="1685" height="380" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604593524776" />
+    <state width="1685" height="380" key="GridCell.Tab.1.right" timestamp="1604593524776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604357794667" />
+    <state width="1685" height="380" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604593524776" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1603896382532">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -345,10 +373,14 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604357748234">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604590863703">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604357748234" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604590863703" />
+    <state width="871" height="568" key="XDebugger.FullValuePopup" timestamp="1604592960473">
+      <screen x="0" y="0" width="1728" height="1122" />
+    </state>
+    <state width="871" height="568" key="XDebugger.FullValuePopup/0.0.1728.1122@0.0.1728.1122" timestamp="1604592960473" />
     <state x="764" y="421" key="com.intellij.database.actions.DdlActions$ModifyObject$1" timestamp="1603896422677">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -357,6 +389,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="674" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1728.1122@0.0.1728.1122" timestamp="1603810838328" />
+    <state x="527" y="246" key="search.everywhere.popup" timestamp="1604591893250">
+      <screen x="0" y="0" width="1728" height="1122" />
+    </state>
+    <state x="527" y="246" key="search.everywhere.popup/0.0.1728.1122@0.0.1728.1122" timestamp="1604591893250" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,10 +404,16 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="get_result" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UPromo$add_ch.coverage" NAME="add_ch Coverage Results" MODIFIED="1604357323657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPromo$add_ch.coverage" NAME="add_ch Coverage Results" MODIFIED="1604591079484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$UPromo.coverage" NAME="UPromo Coverage Results" MODIFIED="1604352583142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPromo$TBotControl.coverage" NAME="TBotControl Coverage Results" MODIFIED="1604593523165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$init_tables.coverage" NAME="init_tables Coverage Results" MODIFIED="1604357180826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
