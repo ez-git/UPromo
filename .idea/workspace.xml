@@ -17,7 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,7 @@
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
       <workItem from="1604350631227" duration="7122000" />
-      <workItem from="1604588873073" duration="5694000" />
+      <workItem from="1604588873073" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604595711649</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="at prev commit: bag fixed &#10;delete web: from procfile (heroku)">
+      <created>1604595921232</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604595921232</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,10 +345,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604592960698" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604595711109">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604595920731">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595711109" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595920731" />
     <state x="166" y="95" width="1382" height="925" key="DiffContextDialog" timestamp="1604595407875">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -397,10 +405,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604595713496">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604595923651">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595713496" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595923651" />
     <state width="871" height="568" key="XDebugger.FullValuePopup" timestamp="1604592960473">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
