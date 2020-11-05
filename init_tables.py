@@ -12,7 +12,7 @@ cur = con.cursor()
 
 cur.execute('''CREATE TABLE PROMOS  
      (LINK TEXT PRIMARY KEY NOT NULL,
-     RELEASE_DATE FLOAT,
+     RELEASE_DATE DATE,
      PROMO TEXT NOT NULL);''')
 
 cur.execute('''CREATE TABLE CH_LIST  

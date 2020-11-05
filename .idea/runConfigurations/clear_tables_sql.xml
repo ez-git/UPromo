@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="clear_tables.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/d958e9f7-6fd0-477f-903e-0d50b1f6701c/clear_tables.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="d958e9f7-6fd0-477f-903e-0d50b1f6701c" namespace="database/&quot;upromo_main&quot;" />
+    <method v="2" />
+  </configuration>
+</component>

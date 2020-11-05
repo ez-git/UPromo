@@ -27,7 +27,7 @@ channels = soup.find_all('a', {'href': re.compile('/youtube/user/')})
 
 for ch in channels:
     ch_str = str(ch)[23:]
-    ch_str = ch_str[0:ch_str.find('>')-2]
+    ch_str = ch_str[0:ch_str.find('>')-1]
     ch_link = 'https://www.youtube.com/user/' + ch_str + '/videos'
 
     query = 'INSERT INTO CH_LIST (LINK,UPDATE_DATE) VALUES (%s,%s)'

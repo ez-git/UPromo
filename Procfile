@@ -1,1 +1,1 @@
-web: TBotControl.py
+web: python TBotControl.py
