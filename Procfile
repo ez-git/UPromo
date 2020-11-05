@@ -1,1 +1,1 @@
-worker: python UPromoBot.py
+web: python UPromoBot.py
