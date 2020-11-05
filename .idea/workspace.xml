@@ -16,8 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="bug fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +183,7 @@
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
       <workItem from="1604350631227" duration="7122000" />
-      <workItem from="1604588873073" duration="5420000" />
+      <workItem from="1604588873073" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604593666408</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="at prev commit: bag fixed &#10;delete web: from procfile (heroku)">
+      <created>1604595711649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604595711649</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +317,8 @@
     <MESSAGE value="add init 2 tables &#10;promos&#10;channel list" />
     <MESSAGE value="1.fin init_tables.py with 2 table&#10;2.add_ch.py pushin links in to ch_list with cur date" />
     <MESSAGE value="added sys heroku files&#10;added telegram bot code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sys heroku files&#10;added telegram bot code" />
+    <MESSAGE value="at prev commit: bag fixed &#10;delete web: from procfile (heroku)" />
+    <option name="LAST_COMMIT_MESSAGE" value="at prev commit: bag fixed &#10;delete web: from procfile (heroku)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604356268138">
@@ -330,10 +337,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604592960698" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604593703600">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604595711109">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604593703600" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595711109" />
     <state x="166" y="95" width="1382" height="925" key="DiffContextDialog" timestamp="1604595407875">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -390,10 +397,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604593674887">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604595713496">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604593674887" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604595713496" />
     <state width="871" height="568" key="XDebugger.FullValuePopup" timestamp="1604592960473">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
