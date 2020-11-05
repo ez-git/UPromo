@@ -16,7 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="" />
+    <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/UPromoBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromoBot.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +198,7 @@
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
       <workItem from="1604350631227" duration="7122000" />
-      <workItem from="1604588873073" duration="18929000" />
+      <workItem from="1604588873073" duration="19666000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -303,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604610407174</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lotta shit">
+      <created>1604611071841</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604611071841</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,10 +383,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604610089008" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604610405403">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604611071126">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604610405403" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604611071126" />
     <state x="166" y="95" width="1382" height="925" key="DiffContextDialog" timestamp="1604610326769">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -434,10 +443,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604610413986">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604611073921">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604610413986" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604611073921" />
     <state width="1129" height="704" key="XDebugger.FullValuePopup" timestamp="1604609302667">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
