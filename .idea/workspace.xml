@@ -154,17 +154,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Database Script.clear_tables.sql" />
       <item itemvalue="Python.add_ch" />
       <item itemvalue="Python.init_tables" />
       <item itemvalue="Python.update_promos" />
       <item itemvalue="Python.UPromoBot" />
-      <item itemvalue="Database Script.clear_tables.sql" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.update_promos" />
         <item itemvalue="Python.add_ch" />
-        <item itemvalue="Database Script.clear_tables.sql" />
         <item itemvalue="Python.init_tables" />
         <item itemvalue="Python.UPromoBot" />
       </list>
@@ -199,7 +198,8 @@
       <workItem from="1604304348367" duration="614000" />
       <workItem from="1604340142901" duration="29000" />
       <workItem from="1604350631227" duration="7122000" />
-      <workItem from="1604588873073" duration="20872000" />
+      <workItem from="1604588873073" duration="21947000" />
+      <workItem from="1604649599108" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -327,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604613092392</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="web">
+      <created>1604613641908</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604613641908</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +388,8 @@
     <MESSAGE value="lotta shit" />
     <MESSAGE value="timeout - 10" />
     <MESSAGE value="worker" />
-    <option name="LAST_COMMIT_MESSAGE" value="worker" />
+    <MESSAGE value="web" />
+    <option name="LAST_COMMIT_MESSAGE" value="web" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604613209937">
@@ -400,10 +408,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="1003" y="172" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604610089008" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604613091734">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604613641191">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604613091734" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604613641191" />
     <state x="166" y="95" width="1382" height="925" key="DiffContextDialog" timestamp="1604610326769">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -420,38 +428,38 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="671" y="266" key="Github.UntrackedFilesDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1603810789260" />
-    <state width="1158" height="309" key="GridCell.Tab.0.bottom" timestamp="1604613127705">
+    <state width="1685" height="380" key="GridCell.Tab.0.bottom" timestamp="1604614860336">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1158" height="309" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604613127705" />
-    <state width="1158" height="309" key="GridCell.Tab.0.center" timestamp="1604613127705">
+    <state width="1685" height="380" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860336" />
+    <state width="1685" height="380" key="GridCell.Tab.0.center" timestamp="1604614860336">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1158" height="309" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604613127705" />
-    <state width="1158" height="309" key="GridCell.Tab.0.left" timestamp="1604613127705">
+    <state width="1685" height="380" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860336" />
+    <state width="1685" height="380" key="GridCell.Tab.0.left" timestamp="1604614860336">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1158" height="309" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604613127705" />
-    <state width="1158" height="309" key="GridCell.Tab.0.right" timestamp="1604613127705">
+    <state width="1685" height="380" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860336" />
+    <state width="1685" height="380" key="GridCell.Tab.0.right" timestamp="1604614860336">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1158" height="309" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604613127705" />
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604613126509">
+    <state width="1685" height="380" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860336" />
+    <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604614860337">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604613126509" />
-    <state width="1685" height="380" key="GridCell.Tab.1.center" timestamp="1604613126509">
+    <state width="1685" height="380" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860337" />
+    <state width="1685" height="380" key="GridCell.Tab.1.center" timestamp="1604614860337">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604613126509" />
-    <state width="1685" height="380" key="GridCell.Tab.1.left" timestamp="1604613126509">
+    <state width="1685" height="380" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860337" />
+    <state width="1685" height="380" key="GridCell.Tab.1.left" timestamp="1604614860336">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604613126509" />
-    <state width="1685" height="380" key="GridCell.Tab.1.right" timestamp="1604613126509">
+    <state width="1685" height="380" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860336" />
+    <state width="1685" height="380" key="GridCell.Tab.1.right" timestamp="1604614860337">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604613126509" />
+    <state width="1685" height="380" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604614860337" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1603896382532">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -460,10 +468,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604613094565">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604613643800">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604613094565" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604613643800" />
     <state width="1129" height="704" key="XDebugger.FullValuePopup" timestamp="1604609302667">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -501,6 +509,11 @@
           <line>73</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/update_promos.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -521,6 +534,6 @@
     <SUITE FILE_PATH="coverage/UPromo$UPromo.coverage" NAME="UPromo Coverage Results" MODIFIED="1604352583142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$TBotControl.coverage" NAME="UPromoBot Coverage Results" MODIFIED="1604601292310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$init_tables.coverage" NAME="init_tables Coverage Results" MODIFIED="1604605806934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UPromo$update_promos.coverage" NAME="update_promos Coverage Results" MODIFIED="1604610160337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPromo$update_promos.coverage" NAME="update_promos Coverage Results" MODIFIED="1604613849949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,1 +1,1 @@
-web: python UPromoBot.py
+bot: python UPromoBot.py
