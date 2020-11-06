@@ -9,6 +9,7 @@ import psycopg2
 def bs_find(elem, tag, innertag, search_name):
     return elem.find(tag, {innertag: search_name})
 
+
 def convert_date(date_str):
     # 1 сент. 2020 г.
     months = {
@@ -27,12 +28,18 @@ def convert_date(date_str):
     }
 
     date_str = date_str[0:len(date_str) - 3]
-
+    sp0_pos = 0
     sp1_pos = date_str.find(' ')
     sp2_pos = date_str.rfind(' ')
-    d = int(date_str[0:sp1_pos])
-    m = int(months[date_str[sp1_pos+1:sp2_pos]])
-    y = int(date_str[sp2_pos+1:])
+    pre_day = date_str[sp0_pos:sp1_pos]
+    if  pre_day == 'Дата': #'Дата премьеры: 10 окт. 2020'
+        sp0_pos = len('Дата премьеры: ')
+        sp1_pos = date_str.find(' ', sp0_pos)
+    elif pre_day == 'Премьера':
+        return datetime.date(1, 1, 1)
+    d = int(date_str[sp0_pos:sp1_pos])
+    m = int(months[date_str[sp1_pos + 1:sp2_pos]])
+    y = int(date_str[sp2_pos + 1:])
 
     return datetime.date(y, m, d)
 
@@ -49,7 +56,6 @@ cur = con.cursor()
 
 cur.execute('SELECT LINK FROM PROMOS')
 promo_links = list(cur.fetchall())
-
 
 cur.execute('SELECT LINK FROM CH_LIST')
 
@@ -94,7 +100,7 @@ for row in rows:
 
                 promo = content[0:dotpos + 1]
 
-                #date
+                # date
                 linksoup_str = str(linksoup)
                 search_str = '"dateText":{"simpleText":"'
                 date_pos1 = linksoup_str.find(search_str) + len(search_str)
@@ -105,6 +111,6 @@ for row in rows:
         if promo != '':
             query = 'INSERT INTO PROMOS (LINK, RELEASE_DATE, PROMO) VALUES (%s,%s, %s)'
             cur.execute(query, (link, release_date, promo))
+    con.commit()
 
-con.commit()
 con.close()
