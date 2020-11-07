@@ -10,6 +10,12 @@ con = psycopg2.connect(
 
 cur = con.cursor()
 
+
+"""
+нужна дата обновления и туда и туда
+нужна ссылка на канал
+"""
+
 cur.execute('''CREATE TABLE PROMOS  
      (LINK TEXT PRIMARY KEY NOT NULL,
      RELEASE_DATE DATE,

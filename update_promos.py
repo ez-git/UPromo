@@ -32,11 +32,17 @@ def convert_date(date_str):
     sp1_pos = date_str.find(' ')
     sp2_pos = date_str.rfind(' ')
     pre_day = date_str[sp0_pos:sp1_pos]
-    if  pre_day == 'Дата': #'Дата премьеры: 10 окт. 2020'
+    if  pre_day == 'Дата':  # 'Дата премьеры: 10 окт. 2020'
         sp0_pos = len('Дата премьеры: ')
         sp1_pos = date_str.find(' ', sp0_pos)
     elif pre_day == 'Премьера':
-        return datetime.date(1, 1, 1)
+        sp0_pos = len('Премьера состоялась ')  # x часов назад
+        sp1_pos = date_str.find(' ', sp0_pos)
+        h = int(date_str[sp0_pos:sp1_pos])
+        cur_date = datetime.datetime.now()
+        result_date = cur_date - datetime.timedelta(hours=h)
+        return datetime.date(result_date.year, result_date.month, result_date.day)
+
     d = int(date_str[sp0_pos:sp1_pos])
     m = int(months[date_str[sp1_pos + 1:sp2_pos]])
     y = int(date_str[sp2_pos + 1:])
@@ -76,7 +82,7 @@ for row in rows:
     for video in videos:
         a = bs_find(video, 'a', 'id', 'video-title')
         link = 'https://www.youtube.com' + a.get('href')
-        if promo_links.count(link) != 0:
+        if (link,) in promo_links:
             continue
         linkhtml = requests.get(link)
         linksoup = bs(linkhtml.text, 'html.parser')

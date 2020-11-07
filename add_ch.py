@@ -1,4 +1,8 @@
-import requests
+"""
+Добавляет каналы в список из socialblade.com
+
+"""
+
 from bs4 import BeautifulSoup as BS
 from selenium import webdriver
 import time
