@@ -17,11 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_ch.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_ch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_promos.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_promos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +200,7 @@
       <workItem from="1604350631227" duration="7122000" />
       <workItem from="1604588873073" duration="21947000" />
       <workItem from="1604649599108" duration="14922000" />
-      <workItem from="1604756896069" duration="14154000" />
+      <workItem from="1604756896069" duration="14313000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -352,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604676919776</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bugs n TODO list">
+      <created>1604789260111</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604789260111</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +412,8 @@
     <MESSAGE value="worker" />
     <MESSAGE value="web" />
     <MESSAGE value="web2bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="web2bot" />
+    <MESSAGE value="bugs n TODO list" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugs n TODO list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604613209937">
@@ -427,10 +432,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="301" y="528" width="1256" height="594" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604769812353" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604676919099">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604789259532">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604676919099" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789259532" />
     <state width="919" height="466" key="DebuggerActiveHint" timestamp="1604768980083">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -491,10 +496,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604676922045">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604789263221">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604676922045" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789263221" />
     <state width="1129" height="704" key="XDebugger.FullValuePopup" timestamp="1604609302667">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
