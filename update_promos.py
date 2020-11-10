@@ -90,10 +90,10 @@ for row in rows:
         desc = linksoup.find('meta', {'name': 'description'})
         content = str(desc.get('content'))
 
-        keywords = ['промокод', 'скидк', 'акци']  # розыгрыш
+        keywords = ['промокод', 'скидк', 'акци']
         promo = ''
+        low_content = content.lower()
         for keyword in keywords:
-            low_content = content.lower()
             keypos = low_content.find(keyword)
             if keypos != -1:
                 dotpos = content.find('.', keypos)

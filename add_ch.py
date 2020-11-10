@@ -8,6 +8,7 @@ from selenium import webdriver
 import time
 import re
 import psycopg2
+import datetime
 
 con = psycopg2.connect(
     database='upromo_main',
@@ -35,7 +36,7 @@ for ch in channels:
     ch_link = 'https://www.youtube.com/user/' + ch_str + '/videos'
 
     query = 'INSERT INTO CH_LIST (LINK,UPDATE_DATE) VALUES (%s,%s)'
-    cur.execute(query, (ch_link, time.time()))
+    cur.execute(query, (ch_link, datetime.date.today()))
 
 con.commit()
 con.close()

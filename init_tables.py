@@ -18,12 +18,16 @@ cur = con.cursor()
 
 cur.execute('''CREATE TABLE PROMOS  
      (LINK TEXT PRIMARY KEY NOT NULL,
+     UPDATE_DATE DATE,
      RELEASE_DATE DATE,
-     PROMO TEXT NOT NULL);''')
+     CHANNEL TEXT,
+     PROMO TEXT NOT NULL
+     FULL_PROMO TEXT NOT NULL);''')
 
 cur.execute('''CREATE TABLE CH_LIST  
      (LINK TEXT PRIMARY KEY NOT NULL,
-     UPDATE_DATE FLOAT );''')
+     UPLOAD_DATE DATE
+     UPDATE_DATE DATE);''')
 
 con.commit()
 con.close()

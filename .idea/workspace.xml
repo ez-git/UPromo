@@ -17,8 +17,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/not_in_usage_UPromoBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/apihelper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/handler_backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/version.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPromoBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromoBot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_ch.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_ch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_using_UPromo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_promos.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_promos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +89,7 @@
       <recent name="C:\Users\EZ\PycharmProjects\UPromo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.update_promos">
+  <component name="RunManager" selected="Python.UPromoBot">
     <configuration name="UPromoBot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UPromo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +103,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\EZ\PycharmProjects\UPromo\UPromoBot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UPromoBot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,6 +156,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="not_in_usage_UPromoBot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UPromo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\EZ\PycharmProjects\UPromo\not_in_usage_UPromoBot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="update_promos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UPromo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,14 +205,16 @@
       <item itemvalue="Python.add_ch" />
       <item itemvalue="Python.init_tables" />
       <item itemvalue="Python.update_promos" />
+      <item itemvalue="Python.not_in_usage_UPromoBot" />
       <item itemvalue="Python.UPromoBot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.UPromoBot" />
         <item itemvalue="Python.update_promos" />
         <item itemvalue="Python.add_ch" />
         <item itemvalue="Python.init_tables" />
-        <item itemvalue="Python.UPromoBot" />
+        <item itemvalue="Python.not_in_usage_UPromoBot" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +249,8 @@
       <workItem from="1604350631227" duration="7122000" />
       <workItem from="1604588873073" duration="21947000" />
       <workItem from="1604649599108" duration="14922000" />
-      <workItem from="1604756896069" duration="14313000" />
+      <workItem from="1604756896069" duration="14353000" />
+      <workItem from="1604948719861" duration="19326000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -356,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604789260111</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="bugs n TODO list">
+      <created>1604789399636</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604789399636</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,10 +473,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="bugs n TODO list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604613209937">
+    <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604957794811">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1604613209937" />
+    <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1604957794811" />
     <state x="639" y="363" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604788427484">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -428,14 +485,14 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="545" y="297" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1604303908278" />
-    <state x="301" y="528" width="1256" height="594" key="#xdebugger.evaluate" timestamp="1604769812353">
+    <state x="334" y="527" width="1256" height="594" key="#xdebugger.evaluate" timestamp="1604964566726">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="301" y="528" width="1256" height="594" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604769812353" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604789259532">
+    <state x="334" y="527" width="1256" height="594" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604964566726" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604789399135">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789259532" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789399135" />
     <state width="919" height="466" key="DebuggerActiveHint" timestamp="1604768980083">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -456,38 +513,38 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="671" y="266" key="Github.UntrackedFilesDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1603810789260" />
-    <state width="1685" height="380" key="GridCell.Tab.0.bottom" timestamp="1604787630759">
+    <state width="1685" height="208" key="GridCell.Tab.0.bottom" timestamp="1604967568776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630759" />
-    <state width="1685" height="380" key="GridCell.Tab.0.center" timestamp="1604787630758">
+    <state width="1685" height="208" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
+    <state width="1685" height="208" key="GridCell.Tab.0.center" timestamp="1604967568776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630758" />
-    <state width="1685" height="380" key="GridCell.Tab.0.left" timestamp="1604787630758">
+    <state width="1685" height="208" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
+    <state width="1685" height="208" key="GridCell.Tab.0.left" timestamp="1604967568775">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630758" />
-    <state width="1685" height="380" key="GridCell.Tab.0.right" timestamp="1604787630758">
+    <state width="1685" height="208" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568775" />
+    <state width="1685" height="208" key="GridCell.Tab.0.right" timestamp="1604967568776">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630758" />
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom" timestamp="1604787630759">
+    <state width="1685" height="208" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
+    <state width="1685" height="208" key="GridCell.Tab.1.bottom" timestamp="1604967568652">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630759" />
-    <state width="1685" height="380" key="GridCell.Tab.1.center" timestamp="1604787630759">
+    <state width="1685" height="208" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
+    <state width="1685" height="208" key="GridCell.Tab.1.center" timestamp="1604967568652">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630759" />
-    <state width="1685" height="380" key="GridCell.Tab.1.left" timestamp="1604787630759">
+    <state width="1685" height="208" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
+    <state width="1685" height="208" key="GridCell.Tab.1.left" timestamp="1604967568652">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630759" />
-    <state width="1685" height="380" key="GridCell.Tab.1.right" timestamp="1604787630759">
+    <state width="1685" height="208" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
+    <state width="1685" height="208" key="GridCell.Tab.1.right" timestamp="1604967568652">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="380" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604787630759" />
+    <state width="1685" height="208" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1603896382532">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -496,10 +553,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604789263221">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604789402129">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789263221" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789402129" />
     <state width="1129" height="704" key="XDebugger.FullValuePopup" timestamp="1604609302667">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -508,6 +565,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="764" y="421" key="com.intellij.database.actions.DdlActions$ModifyObject$1/0.0.1728.1122@0.0.1728.1122" timestamp="1603896422677" />
+    <state x="788" y="507" width="483" height="247" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1604965174157">
+      <screen x="0" y="0" width="1728" height="1122" />
+    </state>
+    <state x="788" y="507" width="483" height="247" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1728.1122@0.0.1728.1122" timestamp="1604965174157" />
     <state x="674" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603810838328">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -524,13 +585,20 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="657" y="420" key="scopes/0.0.1728.1122@0.0.1728.1122" timestamp="1604604721050" />
-    <state x="527" y="246" key="search.everywhere.popup" timestamp="1604591893250">
+    <state x="527" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1604964046829">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="527" y="246" key="search.everywhere.popup/0.0.1728.1122@0.0.1728.1122" timestamp="1604591893250" />
+    <state x="527" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1728.1122@0.0.1728.1122" timestamp="1604964046829" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UPromoBot.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -547,6 +615,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UPromo$add_ch.coverage" NAME="add_ch Coverage Results" MODIFIED="1604607227148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPromo$UPromoBot.coverage" NAME="UPromoBot Coverage Results" MODIFIED="1604967568621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$UPromo.coverage" NAME="UPromo Coverage Results" MODIFIED="1604352583142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$TBotControl.coverage" NAME="UPromoBot Coverage Results" MODIFIED="1604601292310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPromo$init_tables.coverage" NAME="init_tables Coverage Results" MODIFIED="1604605806934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
