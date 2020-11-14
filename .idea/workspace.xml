@@ -17,33 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d048b03d-5f61-45c2-bb82-8271d652cd8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/not_in_usage_UPromoBot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyTelegramBotAPI-3.7.3-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/apihelper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/handler_backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/telebot/version.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPromoBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/UPromoBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_ch.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_ch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_using_UPromo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_usage_UPromoBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/not_in_usage_UPromoBot0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_promos.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_promos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,8 +181,8 @@
       <item itemvalue="Python.add_ch" />
       <item itemvalue="Python.init_tables" />
       <item itemvalue="Python.update_promos" />
-      <item itemvalue="Python.not_in_usage_UPromoBot" />
       <item itemvalue="Python.UPromoBot" />
+      <item itemvalue="Python.not_in_usage_UPromoBot0" />
     </list>
     <recent_temporary>
       <list>
@@ -214,7 +190,7 @@
         <item itemvalue="Python.update_promos" />
         <item itemvalue="Python.add_ch" />
         <item itemvalue="Python.init_tables" />
-        <item itemvalue="Python.not_in_usage_UPromoBot" />
+        <item itemvalue="Python.not_in_usage_UPromoBot0" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +226,9 @@
       <workItem from="1604588873073" duration="21947000" />
       <workItem from="1604649599108" duration="14922000" />
       <workItem from="1604756896069" duration="14353000" />
-      <workItem from="1604948719861" duration="19326000" />
+      <workItem from="1604948719861" duration="19407000" />
+      <workItem from="1605256524080" duration="7000" />
+      <workItem from="1605381039917" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="pull pj from pycharm">
       <created>1603811195324</created>
@@ -413,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604789399636</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Перешел на АПИ, довел бот до ума">
+      <created>1604969113007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604969113007</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +455,8 @@
     <MESSAGE value="web" />
     <MESSAGE value="web2bot" />
     <MESSAGE value="bugs n TODO list" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugs n TODO list" />
+    <MESSAGE value="Перешел на АПИ, довел бот до ума" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перешел на АПИ, довел бот до ума" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="219" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604957794811">
@@ -489,10 +475,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="334" y="527" width="1256" height="594" key="#xdebugger.evaluate/0.0.1728.1122@0.0.1728.1122" timestamp="1604964566726" />
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604789399135">
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2" timestamp="1604969112292">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789399135" />
+    <state x="86" y="61" width="1552" height="982" key="CommitChangelistDialog2/0.0.1728.1122@0.0.1728.1122" timestamp="1604969112292" />
     <state width="919" height="466" key="DebuggerActiveHint" timestamp="1604768980083">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -513,38 +499,38 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="671" y="266" key="Github.UntrackedFilesDialog/0.0.1728.1122@0.0.1728.1122" timestamp="1603810789260" />
-    <state width="1685" height="208" key="GridCell.Tab.0.bottom" timestamp="1604967568776">
+    <state width="1685" height="208" key="GridCell.Tab.0.bottom" timestamp="1604969145904">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
-    <state width="1685" height="208" key="GridCell.Tab.0.center" timestamp="1604967568776">
+    <state width="1685" height="208" key="GridCell.Tab.0.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145904" />
+    <state width="1685" height="208" key="GridCell.Tab.0.center" timestamp="1604969145903">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
-    <state width="1685" height="208" key="GridCell.Tab.0.left" timestamp="1604967568775">
+    <state width="1685" height="208" key="GridCell.Tab.0.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145903" />
+    <state width="1685" height="208" key="GridCell.Tab.0.left" timestamp="1604969145903">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568775" />
-    <state width="1685" height="208" key="GridCell.Tab.0.right" timestamp="1604967568776">
+    <state width="1685" height="208" key="GridCell.Tab.0.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145903" />
+    <state width="1685" height="208" key="GridCell.Tab.0.right" timestamp="1604969145903">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568776" />
-    <state width="1685" height="208" key="GridCell.Tab.1.bottom" timestamp="1604967568652">
+    <state width="1685" height="208" key="GridCell.Tab.0.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145903" />
+    <state width="1685" height="208" key="GridCell.Tab.1.bottom" timestamp="1604969145904">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
-    <state width="1685" height="208" key="GridCell.Tab.1.center" timestamp="1604967568652">
+    <state width="1685" height="208" key="GridCell.Tab.1.bottom/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145904" />
+    <state width="1685" height="208" key="GridCell.Tab.1.center" timestamp="1604969145904">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
-    <state width="1685" height="208" key="GridCell.Tab.1.left" timestamp="1604967568652">
+    <state width="1685" height="208" key="GridCell.Tab.1.center/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145904" />
+    <state width="1685" height="208" key="GridCell.Tab.1.left" timestamp="1604969145904">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
-    <state width="1685" height="208" key="GridCell.Tab.1.right" timestamp="1604967568652">
+    <state width="1685" height="208" key="GridCell.Tab.1.left/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145904" />
+    <state width="1685" height="208" key="GridCell.Tab.1.right" timestamp="1604969145904">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state width="1685" height="208" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604967568652" />
+    <state width="1685" height="208" key="GridCell.Tab.1.right/0.0.1728.1122@0.0.1728.1122" timestamp="1604969145904" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1603896382532">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
@@ -553,10 +539,10 @@
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
     <state x="373" y="206" key="SettingsEditor/0.0.1728.1122@0.0.1728.1122" timestamp="1604303505870" />
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604789402129">
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2" timestamp="1604969115541">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
-    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604789402129" />
+    <state x="457" y="294" key="Vcs.Push.Dialog.v2/0.0.1728.1122@0.0.1728.1122" timestamp="1604969115541" />
     <state width="1129" height="704" key="XDebugger.FullValuePopup" timestamp="1604609302667">
       <screen x="0" y="0" width="1728" height="1122" />
     </state>
