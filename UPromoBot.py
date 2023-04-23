@@ -9,6 +9,7 @@ UBot = telebot.TeleBot(token)
 ans_list = []
 mark = '\U000027A1 '
 
+
 @UBot.message_handler(commands=['start'])
 def start_message(message):
     q_type(message)

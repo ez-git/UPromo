@@ -4,6 +4,7 @@ from selenium import webdriver
 import datetime
 import time
 import psycopg2
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def bs_find(elem, tag, innertag, search_name):
@@ -69,7 +70,7 @@ rows = cur.fetchall()
 for row in rows:
     URL = row[0]
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(URL)
     time.sleep(1)
     html = driver.page_source
@@ -77,10 +78,12 @@ for row in rows:
     driver.quit()
 
     soup = bs(html, 'html.parser')
-    videos = soup.find_all('ytd-grid-video-renderer', {'class': 'style-scope ytd-grid-renderer'})
+    #videos = soup.find_all('ytd-grid-video-renderer', {'class': 'style-scope ytd-grid-renderer'})
+    videos = soup.find_all('h3',
+                           {'class': 'style-scope ytd-rich-grid-media'})
 
     for video in videos:
-        a = bs_find(video, 'a', 'id', 'video-title')
+        a = bs_find(video, 'a', 'id', 'video-title-link')
         link = 'https://www.youtube.com' + a.get('href')
         if (link,) in promo_links:
             continue
@@ -90,7 +93,7 @@ for row in rows:
         desc = linksoup.find('meta', {'name': 'description'})
         content = str(desc.get('content'))
 
-        keywords = ['промокод', 'скидк', 'акци']
+        keywords = ['промокод', 'скидк', 'акци', 'розыгрыш']
         promo = ''
         low_content = content.lower()
         for keyword in keywords:
@@ -115,8 +118,8 @@ for row in rows:
                 release_date = convert_date(str(release_date))
                 break
         if promo != '':
-            query = 'INSERT INTO PROMOS (LINK, RELEASE_DATE, PROMO) VALUES (%s,%s, %s)'
-            cur.execute(query, (link, release_date, promo))
+            query = 'INSERT INTO PROMOS (LINK, RELEASE_DATE, PROMO, FULL_PROMO) VALUES (%s,%s,%s,%s)'
+            cur.execute(query, (link, release_date, promo, content))
     con.commit()
 
 con.close()

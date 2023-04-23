@@ -1,6 +1,18 @@
-requests~=2.24.0
-psycopg2~=2.8.6
-beautifulsoup4~=4.9.3
-selenium~=3.141.0
-DateTime~=4.3
-pyTelegramBotAPI ~= 3.7.3
+beautifulsoup4==4.9.3
+certifi==2022.12.7
+chardet==3.0.4
+colorama==0.4.6
+DateTime==4.9
+idna==2.10
+packaging==23.1
+psycopg2==2.8.6
+pyTelegramBotAPI==3.7.9
+python-dotenv==0.21.1
+pytz==2023.3
+requests==2.24.0
+selenium==3.141.0
+soupsieve==2.4.1
+tqdm==4.65.0
+urllib3==1.25.11
+webdriver-manager==3.8.6
+zope.interface==6.0
